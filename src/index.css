@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body {
+  margin: 0;
+  /*
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Acceuil */
+#displayImage{
+  background-color: #000000;
+}
+
+#imageOnPage{
+  align-self: center;
+  margin: auto;
+}
+
+/*event card*/
+#paragraphScale{
+ background-color: indianred;
+}
+
+/* Booking */
+#cardInfoButton{
+  background-color: rgb(240, 240, 240);
+  border-color: rgba(65, 65, 65, 0.6);
+  color: rgb(103, 110, 111);
+}
+
+#cardInfoButton:hover{
+  background-color: rgb(5, 4, 31);
+  color: aliceblue;
+}
+
+
+/* Not found page section*/
+#notFoundButton{
+  background-color: aliceblue;
+  color: black;
+  border-color: aquamarine;
+}
+
+#notFoundButton:hover{
+  background-color: rgb(176, 246, 255, 0.7);
+}
+
+/*Footer section*/
+.footer{
+  background-color: rgb(9, 3, 36);
+  display:list-item;
+  align-content: space-around;
+  justify-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  font-size:75%;
+  font-family: url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap') sans-serif;
+  bottom: 0;
+}
+
+.footer #container{
+  display: flex;
+  justify-content:flex-start;
+  margin-inline: 15vw;
+  padding: 3vh;
+}
+
+#footerLogo{
+  width: 15vw;
+  height: auto;
+}
+
+#leftfooter{
+  position: relative;
+  justify-self: center;
+  padding-top: 5px;
+}
+
+#leftfooter p{
+  color: aliceblue;
+  font-size: 90%;
+}
+
+#middlefooter{
+  margin-inline: 5vw;
+}
+
+#middlefooter p,h1{
+  color: azure;
+}
+
+
+.footerContainer{
+  display:block;
+}
+
+#copyright{
+  color: azure;
+  position: relative;
+  background-color: black;
+  padding-inline: 41.5%;
+  padding-block: 1vw;
+  font-size:x-small;
+
+}
+
+/*other logo*/
+#contactLogo{
+  width: 30px;
+  height: auto;
+}
+
+/*contactLogo Panel*/
+#contactLogoPanel{
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+#panel{
+  margin-inline: 2vw;
+}
+
+/* Contact page */
+#contactSubmit{
+  background-color: rgb(240, 240, 240);
+  border-color: rgba(65, 65, 65, 0.6);
+  color: rgb(103, 110, 111);
+  margin-top: 0;
+  margin-bottom: 6.25vh;
+}
+
+#contactSubmit:hover{
+  background-color: rgb(5, 4, 31);
+  color: aliceblue;
+}
+
+
